@@ -11,7 +11,6 @@ from std_msgs.msg import String,Int32,Int32MultiArray,MultiArrayLayout,MultiArra
 # Import User Libs
 import numpy as np
 import cv2
-import imutils
 import time
 import math
 import sys
