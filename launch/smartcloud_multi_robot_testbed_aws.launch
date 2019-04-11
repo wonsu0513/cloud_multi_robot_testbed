@@ -11,52 +11,52 @@
 
 <!-- Robot 0 -->  
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_0" output="screen">
-    <param name="port_name" value="robot/hamster0"/>
+    <param name="robot_name" value="robot/hamster0"/>
   </node>
 
 <!-- Robot 1 -->
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_1" output="screen">
-    <param name="port_name" value="robot/hamster1"/>
+    <param name="robot_name" value="robot/hamster1"/>
   </node>
 
 <!-- Robot 2 -->  
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_2" output="screen">
-    <param name="port_name" value="robot/hamster2"/>
+    <param name="robot_name" value="robot/hamster2"/>
   </node>
 
 <!--  Robot 3 -->
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_3" output="screen">
-    <param name="port_name" value="robot/hamster3"/>
+    <param name="robot_name" value="robot/hamster3"/>
   </node>
   
 <!--  Robot 4 -->
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_4" output="screen">
-    <param name="port_name" value="robot/hamster4"/>
+    <param name="robot_name" value="robot/hamster4"/>
   </node>
 
 <!--  Robot 5 -->
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_5" output="screen">
-    <param name="port_name" value="robot/hamster5"/>
+    <param name="robot_name" value="robot/hamster5"/>
   </node>
 
 <!--  Robot 6 -->
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_6" output="screen">
-    <param name="port_name" value="robot/hamster6"/>
+    <param name="robot_name" value="robot/hamster6"/>
   </node>
 
 <!--  Robot 7 -->
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_7" output="screen">
-    <param name="port_name" value="robot/hamster7"/>
+    <param name="robot_name" value="robot/hamster7"/>
   </node>
 
 <!--  Robot 8 -->
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_8" output="screen">
-    <param name="port_name" value="robot/hamster8"/>
+    <param name="robot_name" value="robot/hamster8"/>
   </node>
 
 <!--  Robot 9 -->
   <node pkg="smartcloud_multi_robot_testbed_aws" type="robot_controller_aws.py" name="robot_controller_aws_9" output="screen">
-    <param name="port_name" value="robot/hamster9"/>
+    <param name="robot_name" value="robot/hamster9"/>
   </node>
  
 </launch>
